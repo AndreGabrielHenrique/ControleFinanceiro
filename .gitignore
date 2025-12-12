@@ -1,23 +1,32 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# CAMINHO RELATIVO: .gitignore
+# Arquivo que especifica quais arquivos/diretórios o Git deve ignorar
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
+# Veja https://help.github.com/articles/ignoring-files/ para mais sobre ignorar arquivos.
 
-# testing
-/coverage
+# dependencies - dependências do projeto
+node_modules/  # Ignora a pasta node_modules (contém todas as dependências instaladas)
+.pnp/          # Ignora pasta do PnP (Plug'n'Play) do Yarn
+.pnp.js        # Ignora arquivo de configuração do PnP
 
-# production
-/build
+# testing - testes
+coverage/      # Ignora pasta de relatórios de cobertura de testes
 
-# misc
-.DS_Store
-.env.local
+# production - produção
+build/         # Ignora pasta build gerada para produção
+
+# docs - documentação
+docs/          # Ignora pasta de documentação (ADICIONADO)
+
+# misc - diversos
+.DS_Store      # Ignora arquivos do macOS (metadados do Finder)
+.env.local     # Ignora arquivos de variáveis de ambiente locais
 .env.development.local
 .env.test.local
 .env.production.local
 
+# Logs de debug e erro do npm e yarn
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Remove a linha duplicada "node_modules" do final
