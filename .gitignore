@@ -4,18 +4,18 @@
 # Veja https://help.github.com/articles/ignoring-files/ para mais sobre ignorar arquivos.
 
 # dependencies - dependências do projeto
-node_modules/  # Ignora a pasta node_modules (contém todas as dependências instaladas)
-.pnp/          # Ignora pasta do PnP (Plug'n'Play) do Yarn
+node_modules  # Ignora a pasta node_modules (contém todas as dependências instaladas)
+.pnp          # Ignora pasta do PnP (Plug'n'Play) do Yarn
 .pnp.js        # Ignora arquivo de configuração do PnP
 
 # testing - testes
-coverage/      # Ignora pasta de relatórios de cobertura de testes
+coverage      # Ignora pasta de relatórios de cobertura de testes
 
 # production - produção
-build/         # Ignora pasta build gerada para produção
+build         # Ignora pasta build gerada para produção
 
 # docs - documentação
-docs/          # Ignora pasta de documentação (ADICIONADO)
+docs          # Ignora pasta de documentação (ADICIONADO)
 
 # misc - diversos
 .DS_Store      # Ignora arquivos do macOS (metadados do Finder)
@@ -28,5 +28,3 @@ docs/          # Ignora pasta de documentação (ADICIONADO)
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-# Remove a linha duplicada "node_modules" do final
