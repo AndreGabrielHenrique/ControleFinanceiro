@@ -4,9 +4,9 @@
 
 Este repositório contém uma aplicação React para controle financeiro.
 
-- **Documentação completa:** veja `docs/DOCUMENTATION.md` para detalhes sobre estrutura, componentes, scripts de execução, build e contribuição.
+- **Documentação completa:** veja `docs/DOCUMENTATION.pdf` para detalhes sobre estrutura, componentes, scripts de execução, build e contribuição.
 - **Observação:** o conteúdo original acima foi preservado.
 
 ---
 
-Arquivo de documentação adicional: `docs/DOCUMENTATION.md`.
+Arquivo de documentação adicional: `docs/DOCUMENTATION.pdf`.
